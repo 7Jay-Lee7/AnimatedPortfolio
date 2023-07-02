@@ -26,13 +26,13 @@ export const projects = [
     description: "A MERN Dashboard",
   },
   {
-    title: "CodeConnect Social Media",
+    title: "CodeConnect",
     url: "https://github.com/7Jay-Lee7/MERN-Social-Media",
     image: "projects/socialMedia.png",
     description: "A MERN Social Media for Coders",
   },
   {
-    title: "AI Image Generator",
+    title: "Image Generator",
     url: "https://github.com/7Jay-Lee7/AI-Imagery",
     image: "projects/aiImagery.png",
     description: "An image generator using AI",
