@@ -20,7 +20,7 @@ export const LoadingScreen = (props) => {
   flex items-center justify-center bg-indigo-300 
   ${started ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="text-4xl md:text-9xl font-bold text-indigo-950 relative">
+      <div className="text-4xl md:text-9xl font-bold text-[#450606] relative">
         <div
           className="absolute left-0 top-0  overflow-hidden truncate text-clip transition-all duration-500"
           style={{
