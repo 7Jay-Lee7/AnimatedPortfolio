@@ -50,7 +50,7 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="px-1 italic">Jay Lee</span>
+        <span className="px-1 italic text-[#450606]">Jay Lee</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4 font-semibold"
@@ -67,13 +67,21 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I'm an up and coming Software Engineer
+        As an aspiring software engineer,
         <br />
-        who enjoys learning to build apps.
+        I am deeply passionate about creating
+        <br />
+         web interfaces that are both visually
+        <br />
+        stunning and engaging, striving to 
+        <br />
+        deliver exceptional user experiences 
+        <br />
+        through every project I undertake.
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
-        className={`bg-indigo-950 text-white py-4 px-8 
+        className={`bg-[#450606] text-white py-4 px-8 
       rounded-lg font-bold text-lg mt-4 md:mt-16`}
         initial={{
           opacity: 0,
@@ -312,7 +320,7 @@ const ContactSection = () => {
             />
             <button
               disabled={state.submitting}
-              className="bg-indigo-950 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
+              className="bg-[#450606] text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
             >
               Submit
             </button>
