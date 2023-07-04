@@ -8,12 +8,6 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Portfolio",
-    url: "https://jay-lee-portfolio.netlify.app",
-    image: "projects/Portfolio.png",
-    description: "My original Portfolio",
-  },
-  {
     title: "3D Designer",
     url: "https://github.com/7Jay-Lee7/Jays-3D-Ai-Shirt-Designer",
     image: "projects/3dDesign.png",
@@ -24,6 +18,12 @@ export const projects = [
     url: "https://github.com/7Jay-Lee7/MERN-Dashboard",
     image: "projects/MERNdashboard.png",
     description: "A MERN Dashboard",
+  },
+  {
+    title: "Portfolio",
+    url: "https://jay-lee-portfolio.netlify.app",
+    image: "projects/Portfolio.png",
+    description: "My original Portfolio",
   },
   {
     title: "CodeConnect",

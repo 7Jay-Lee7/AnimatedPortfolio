@@ -126,12 +126,12 @@ const skills = [
 ];
 const languages = [
   {
-    title: "🇪🇸 Spanish",
-    level: 50,
-  },
-  {
     title: "🇬🇧 English",
     level: 100,
+  },
+  {
+    title: "🇪🇸 Spanish",
+    level: 50,
   },
 ];
 
@@ -267,7 +267,7 @@ const ProjectsSection = () => {
 };
 
 const ContactSection = () => {
-  const [state, handleSubmit] = useForm("xrgwzdwe");
+  const [state, handleSubmit] = useForm("mayzgjbd");
   return (
     <Section>
       <h2 className="text-3xl md:text-5xl font-bold">Contact me</h2>
