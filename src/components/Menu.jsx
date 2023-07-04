@@ -28,10 +28,10 @@ export const Menu = (props) => {
       ${menuOpened ? "w-full md:w-80" : "w-0"}`}
       >
         <div className="flex-1 flex items-start justify-center flex-col gap-6 p-8">
-          <MenuButton label="About" onClick={() => onSectionChange(0)} />
-          <MenuButton label="Skills" onClick={() => onSectionChange(1)} />
-          <MenuButton label="Projects" onClick={() => onSectionChange(2)} />
-          <MenuButton label="Contact" onClick={() => onSectionChange(3)} />
+          <MenuButton label="About" imageSrc="src/assets/About.png" onClick={() => onSectionChange(0)} />
+          <MenuButton label="Skills" imageSrc="src/assets/Skills.png" onClick={() => onSectionChange(1)} />
+          <MenuButton label="Projects" imageSrc="src/assets/Projects.png" onClick={() => onSectionChange(2)} />
+          <MenuButton label="Contact" imageSrc="src/assets/Contact.png" onClick={() => onSectionChange(3)} />
         </div>
       </div>
     </>
@@ -39,13 +39,14 @@ export const Menu = (props) => {
 };
 
 const MenuButton = (props) => {
-  const { label, onClick } = props;
+  const { label, imageSrc, onClick } = props;
   return (
     <button
       onClick={onClick}
-      className="text-2xl font-bold cursor-pointer hover:text-indigo-950 transition-colors"
+      className="text-2xl font-bold cursor-pointer hover:text-indigo-950 transition-colors flex items-center"
     >
-      {label}
+      <img src={imageSrc} alt={label} className="mr-2 h-8 w-8" />
+      <span>{label}</span>
     </button>
   );
 };
