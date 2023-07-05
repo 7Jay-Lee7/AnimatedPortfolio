@@ -26,23 +26,3 @@ body {
   }
 }
 
-/* Width and height of the scrollbar track */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-/* Background color of the scrollbar track */
-::-webkit-scrollbar-track {
-  background-color: #5e5a5a;
-}
-
-/* Color of the scrollbar thumb */
-::-webkit-scrollbar-thumb {
-  background-color: #450606;
-}
-
-/* Color of the scrollbar thumb on hover */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #a90303;
-}
