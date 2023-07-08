@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 export const projects = [
   {
     title: "3D Designer",
-    url: "https://github.com/7Jay-Lee7/Jays-3D-Ai-Shirt-Designer",
+    url: "https://3d-designer.netlify.app/",
     image: "projects/3dDesign.png",
     description: "Customise a 3D shirt using Ai",
   },
