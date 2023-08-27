@@ -19,8 +19,12 @@ Optimized Performance: The portfolio is optimized for performance to ensure fast
 To get started with the animated portfolio, follow these steps:
 
 1.Clone the repository or download the project files to your local machine.
+
 2.Open the project folder in your preferred code editor.
+
 3.Customise the portfolio by modifying the files. You can add your own content, update the styling, and adjust animations according to your preferences.
+
 4.Test the portfolio locally by opening the file in a web browser. Make sure all the animations, transitions, and interactive elements are working as expected.
+
 5.Deploy the portfolio to a web server or hosting platform of your choice. This will make it accessible to others on the internet.
 
