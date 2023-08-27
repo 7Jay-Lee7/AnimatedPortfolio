@@ -1,4 +1,4 @@
-# Animated Portfolio
+# [Animated Portfolio](https://jays-animated-portfolio.netlify.app/)
 ![My Portfolio](animatedPortfolio.png)
 
 ## Introduction
